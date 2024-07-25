@@ -63,7 +63,7 @@ def stable_stock_matching(buyers_preferences, stocks_preferences):
                         buy_index += 1
                         stock_index += 1
 
-    return final_dict 
+    return final_dict
 
 
 
