@@ -45,4 +45,3 @@ def call1to2(calls: {(str, str): int}) -> {str: {str: int}}:
         total_calls[total_call_key] = inner_dict
 
     return inner_dict
-
