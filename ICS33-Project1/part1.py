@@ -33,23 +33,16 @@ def read_calls(file: open) -> {(str, str): int}:
 
 
 
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
 def call1to2(calls: {(str, str): int}) -> {str: {str: int}}:
-    pass
+    total_calls = {}
+    for key, value in calls.items():
+        total_call_key = key[0]
+        total_keys = calls.key()
+        inner_dict = {}
+        if total_call_key in total_keys:
+            value = calls[total_call_key]
+            inner_dict[key[1]] = value
+        total_calls[total_call_key] = inner_dict
+
+    return inner_dict
+
