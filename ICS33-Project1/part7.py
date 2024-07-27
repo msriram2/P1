@@ -2,11 +2,10 @@
 #Answer:
 
 """
-When wanting to create a local repository connected to my remote repository, the following steps should be followed:
-1) Initialize the directory with files you want to edit and commit.
-2) Use git clone to include the URL or SSL to the remote repository.
-3) Use git remote add to push your first commit to the remote repository. Can also use commit to make commits to local
-repository
-4) For future commits, git push is all that is needed.
+When wanting to link a local repository to a remote git repository, it is important to take the following steps:
+1) Initialize repository in the local repository
+2) Clone the link from your remote repository to local repository
+3) Most important step, check and see if the branch you're making commits to is set to 'main'.
+4) After adding messages to be staged and committed, use "git remote add origin [url]"
+4) To commit messages to a remote repository, use 'git push origin main' to push comments to github.
 """
-
