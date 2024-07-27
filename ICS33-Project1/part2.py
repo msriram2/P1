@@ -11,5 +11,5 @@ def question3(n: dict, m: dict) -> dict:
     return new_dict
 
 def question4(n: list) -> list:
-    new_list = [y for x in list1 for list1, list2 in n if y==x]
+    new_list = [y for x in list1 for list1, list2, in n if y==x]
     return new_list
