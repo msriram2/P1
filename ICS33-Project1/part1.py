@@ -29,8 +29,7 @@ def read_calls(file: open) -> {(str, str): int}:
                         str_tuple = (caller, receiver)
                         tuples_dict[str_tuple] = 0
 
-        return tuples_dict
-
+    return tuples_dict
 
 
 def call1to2(calls: {(str, str): int}) -> {str: {str: int}}:
