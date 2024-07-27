@@ -2,10 +2,8 @@ def question1(n: dict) -> dict:
     new_dict = {value: key for (key, value) in n.items()}
     return new_dict
 
-
-
 def question2(n: dict) -> dict:
-    new_dict = {value: key for (key,value) in n.items() if value == key[value]}
+    new_dict = {value: key for (key, value) in n.items() if value == key[value]}
     return new_dict
 
 def question3(n: dict, m: dict) -> dict:
