@@ -7,7 +7,7 @@ def question2(n: dict) -> dict:
     return new_dict
 
 def question3(n: dict, m: dict) -> dict:
-    new_dict = {n[k] + m[k] for (k,v) in n.items() and m.items() if n.key() == m.key()}
+    new_dict = {n[k] + m[k] for (k,v) in n.items() and m.items() if n.key() == m,key()}
     return new_dict
 
 def question4(n: list) -> list:
