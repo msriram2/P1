@@ -1,6 +1,8 @@
 def question1(n: dict) -> dict:
-    new_dict = {value: key for (key,value) in n.items()}
+    new_dict = {value: key for (key, value) in n.items()}
     return new_dict
+
+
 
 def question2(n: dict) -> dict:
     new_dict = {value: key for (key,value) in n.items() if value == key[value]}
